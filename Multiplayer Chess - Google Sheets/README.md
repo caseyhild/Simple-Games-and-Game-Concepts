@@ -1,3 +1,9 @@
+Plays a game of chess against an opponent online.
+
+Each person should download the code on their own machine and follow the instructions below.
+
+Make sure to select different colors to play with.
+
 Before you run:
 
 1. Make sure you are logged in to google with the correct account
