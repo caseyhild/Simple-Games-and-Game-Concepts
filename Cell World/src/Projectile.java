@@ -49,9 +49,9 @@ public class Projectile
 
     public void draw(double xoff, double yoff, int w, int h, int width, int height, Graphics g)
     {
-        
-        double xShift = position.x - w/2.0;
-        double yShift = position.y - h/2.0;
+
+        double xShift = position.x - w/2;
+        double yShift = position.y - h/2;
         double x = width/2.0 + 30 * xShift;
         double y = height/2.0 + Math.sqrt(3) * 20 * yShift;
         g.setColor(new Color(0));

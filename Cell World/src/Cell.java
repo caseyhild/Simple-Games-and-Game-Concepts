@@ -69,7 +69,7 @@ public class Cell
                 xCenter + sideLength/2,
                 xCenter - sideLength/2,
                 xCenter - sideLength};
-        int l = (int) Math.round(Math.sqrt(3) / 2 * sideLength);
+        int l = (int) Math.round(Math.sqrt(3)/2 * sideLength);
         int[] yPos = {
                 yCenter - l,
                 yCenter - l,

@@ -49,8 +49,8 @@ public class Generator extends Cell
         g.setFont(new Font("Verdana", Font.PLAIN, 14));
         FontMetrics fm = g.getFontMetrics();
         g.setColor(new Color(0));
-        double xShift = xp - w/2.0;
-        double yShift = yp - h/2.0;
+        double xShift = xp - w/2;
+        double yShift = yp - h/2;
         double x = width/2.0 + 30 * xShift;
         double y = height/2.0 + (xp % 2 * Math.sqrt(3) * 10) + Math.sqrt(3) * 20 * yShift;
         g.drawString("" + collection, (int) (x + xoff - fm.stringWidth("" + collection)/2), (int) (y + yoff + fm.getAscent()/2 - 2));

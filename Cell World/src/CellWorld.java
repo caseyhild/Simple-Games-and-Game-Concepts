@@ -19,7 +19,6 @@ public class CellWorld extends JPanel implements ActionListener, MouseListener, 
     private boolean down;
     private final double[][] random;
     private double[][] noise;
-
     private boolean keyPressed;
     private KeyEvent key;
     private boolean mouseClicked;
@@ -64,7 +63,7 @@ public class CellWorld extends JPanel implements ActionListener, MouseListener, 
         cells.add(new Generator(10, 9, 0, 6, world, 100));
         cells.add(new Tower(11, 12, 4, world, 100));
         cells.add(new Laboratory(12, 6, 3, 1, world, 200));
-        player = new Player(world[0].length/2.0, world.length/2.0, 0, 0, 2, 20);
+        player = new Player(world[0].length/2, world.length/2, 0, 0, 2, 20);
         setBackground(new Color(0, 0, 0));
     }
 

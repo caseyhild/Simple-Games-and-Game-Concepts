@@ -32,8 +32,8 @@ public class Laboratory extends Cell
     public void draw(double xoff, double yoff, int xp, int yp, int w, int h, ArrayList<Integer> colors, double[][] noise, Cell[][] world, int width, int height, Graphics g)
     {
         super.draw(xoff, yoff, xp, yp, w, h, colors, noise, world, width, height, g);
-        double xShift = xp - w/2.0;
-        double yShift = yp - h/2.0;
+        double xShift = xp - w/2;
+        double yShift = yp - h/2;
         double x = width/2.0 + 30 * xShift;
         double y = height/2.0 + (xp % 2 * Math.sqrt(3) * 10) + Math.sqrt(3) * 20 * yShift;
         g.setColor(new Color(colors.get(color2)));
