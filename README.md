@@ -1,4 +1,6 @@
-This is a collection of a bunch of simple games and game concepts I have made throughout the years.
+# Simple Games and Game Concepts
+
+A collection of simple games and game concepts I have made throughout the years.
 
 <img height="200" alt="Screenshot 2025-09-13 at 10 21 07 PM" src="https://github.com/user-attachments/assets/ff28ffd6-fcca-43ce-a310-72172c82a762" />
 <img height="200" alt="Screenshot 2025-09-13 at 11 08 48 PM" src="https://github.com/user-attachments/assets/6b783277-2e42-42ed-a063-4b0c83238a1d" />
